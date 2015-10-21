@@ -1,0 +1,3 @@
+A program that solves a set of 3X3 sliding puzzles. The User will be asked to pick one of 3 algorithms: Steepest ascent hill climbing, Breadth first search, and A*. Then pick one of 4 ways to give a heuristic value for each puzzle board: Count out of place tiles, Sum of distances of out of place tiles, Tile reversals, Combination of all the above. Then pick from 3 default puzzles to solve.
+
+To run in a terminal, type "python3 main.py". Some combinations of algorithms and heuristics take longer than a few minutes to solve a puzzle. To stop if it is taking to long to solve a problem, press "Ctrl + c".
